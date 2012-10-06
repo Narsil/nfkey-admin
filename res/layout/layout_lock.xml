@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+<LinearLayout 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="#000"
+	android:gravity="center" >
+	
+	<ImageView 
+		android:id="@+id/logo"
+		android:layout_marginTop="20dp"
+		android:layout_width="160dp"
+		android:layout_height="75dp"
+		android:src="@drawable/logo_nfk" />
+	
+	<ImageView 
+		android:id="@+id/img_lock"
+		android:layout_width="180dp"
+		android:layout_height="260dp"
+		android:src="@drawable/lock" />
+
+	<Button
+		android:id="@+id/button_create"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/button"
+		android:drawableLeft="@drawable/a_key"
+		android:layout_marginTop="20dp"
+		android:textSize="20sp"
+		android:text="Créer une clé" />
+	
+</LinearLayout>
+</ScrollView>

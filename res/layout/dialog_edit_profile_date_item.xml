@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android">
+	<RelativeLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent"
+	  android:padding="15dip">
+	
+	    <DatePicker
+	        android:id="@+id/datePicker"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:startYear="1900"
+	        android:endYear="2012" />
+	<!-- 
+	    <CheckBox
+	        android:id="@+id/notSpecifiedCheckBox"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignLeft="@+id/datePicker"
+	        android:layout_below="@+id/datePicker"
+	        android:text="Not specified"
+	        android:textColor="#ffffff" />
+	 -->
+	</RelativeLayout>
+</ScrollView>
